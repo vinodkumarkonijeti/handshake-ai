@@ -1,0 +1,21 @@
+{
+  "name": "multiplayer-snake-battle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Real-time room-based Snake Battle",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  }
+}
